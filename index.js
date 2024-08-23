@@ -9,6 +9,9 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
   res.send("Hi, I am hasib.");
 });
+app.get("/contact", (req, res) => {
+  res.send("<h1>Contact me for details .............</h1>");
+});
 
 app.listen(port, () => {
   console.log(`First express app listening on port ${port}`);
